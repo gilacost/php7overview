@@ -1,8 +1,10 @@
 <?php
 
+//die('IT WORKS');
 
 function setAge(int $age){
-    return 'fosa';
+
 }
 
 echo setAge(8);
+

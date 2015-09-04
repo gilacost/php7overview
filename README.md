@@ -344,3 +344,18 @@ And a tiny apt primer:
 * upgrade installed: **apt-get upgrade**
 
 If something isn't working or you have suggestions, please let me know here.
+
+## Setting up shared folders
+
+Once you hit http://php7dev you will find that document root is set to /var/www/default.
+If you are familiar with vagrant you should know that by default vagrant shares /vagrant between guest
+and hosts, so to be able to work from your ide just create a simlink like this:
+
+* vagrant ssh
+* cd /vagrant
+* mkdir /www
+* https://github.com/pepodev/php7overview.git (within /www)
+* sudo ln -s /vagrant/www/src/ /var/www/default
+
+Then if you visit http://php7dev You should see IT WORKS.
+
