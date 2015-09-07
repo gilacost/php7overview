@@ -78,3 +78,7 @@ $usersCollection = new UserCollection([
 $usersCollection->sortBy('age');
 
 var_dump($usersCollection->users());
+
+$usersCollection->sortBy('name');
+
+var_dump($usersCollection->users());
