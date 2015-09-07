@@ -357,5 +357,5 @@ and hosts, so to be able to work from your ide just create a simlink like this:
 * https://github.com/pepodev/php7overview.git (within /www)
 * sudo ln -s /vagrant/www/src/ /var/www/default
 
-Then if you visit http://php7dev You should see IT WORKS.
+Then if you visit http://php7dev You should see phpinfo.
 
